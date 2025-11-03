@@ -3,11 +3,24 @@
     width: 200px;
 }
 
-.sidenav a {
+.mat-mdc-list-item-unscoped-content.mdc-list-item__primary-text {
+    color: #fff !important;
+}
+
+.sidenav ::ng-deep .mat-mdc-list-item-unscoped-content.mdc-list-item__primary-text {
+    color: #fff !important;
+}
+
+.sidenav ::ng-deep .material-icons {
     color: #fff !important;
 }
 
 .sidenav i {
     color: #fff !important;
     padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background-color: #fff;
 }
